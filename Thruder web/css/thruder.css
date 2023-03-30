@@ -1,0 +1,269 @@
+html,body,.box{
+    width: 100%;
+    height: 100%;
+}
+/* 导航样式开始 */
+.nav{
+    width: 100%;
+    height: 85px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.logo{
+    width: 117px;
+    height: 55px;
+    margin-top: 15px;
+    margin-left: 30px;
+    float: left;
+}
+.nav-bar{
+    float: right;
+}
+.nav-bar>li{
+    float: left;
+    width: 156px;
+    height: 85px;
+    line-height: 85px;
+}
+.nav-bar a{
+    color: white;
+}
+.iconfont{
+    font-size: 25px;
+    margin-right: 13px;
+}
+.nav-bar span{
+    font-size: 18px;
+}
+.nav-bar-list{
+    width: 156px;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0;
+    right: -156px;
+    transition: all .5s;
+}
+.more{
+    z-index: 666;
+    position: relative;
+}
+.nav-bar>li:hover>.nav-bar-list{
+    right: 0;
+   
+}
+/* 导航样式结束 */
+/* 第一块样式开始 */
+.one{
+    overflow: hidden;
+    position: relative;
+}
+.one>video{
+    width: 100%;
+}
+.video-text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.video-text>img{
+    width: 716px;
+    margin-top: 280px;
+}
+.download{
+    display: block;
+    width: 180px;
+    height: 50px;
+    border: 1px solid white;
+    margin: 30px auto 20px;
+    color: white;
+    line-height: 50px;
+}
+.download:hover{
+    background-color: rgba(255,255,255,.5);
+}
+.arrow{
+    display: block;
+    font-size: 40px;
+    color: white;
+    animation: UpDown 1s linear infinite;
+}
+@keyframes UpDown{
+    0%{
+        transform: translateY(0);
+    }
+    25%{
+        transform: translateY(-3px);
+    }
+    50%{
+        transform: translateY(0);
+    }
+    75%{
+        transform: translateY(3px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+/* 第一块样式结束 */
+/* 第二块样式开始 */
+.two{
+    position: relative;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.btn{
+    width: 100%;
+    height: 71px;
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+}
+.btn>ul{
+    width: 600px;
+    margin: 0 auto;
+}
+.btn li{
+    width: 120px;
+    height: 70px;
+    border-bottom: 1px solid rgba(255,255,255,.6);
+    float: left;
+}
+.btn li:hover{
+    border-bottom-color: white;
+}
+.btn a{
+    display: block;
+    width: 47px;
+    height: 42px;
+    margin: 14px 33px;
+    background-image: url(../images/carousel_btns.png);
+    background-size: 820px;
+    transition: all .5s;
+}
+.btn a:hover{
+    transform: translateY(-3px);
+}
+.btn1{
+    background-position: -644px;
+}
+.btn2{
+    background-position: -448px;
+}
+.btn3{
+    background-position: -223px;
+}
+.btn4{
+    background-position: -340px;
+}
+.btn5{
+    background-position: -117px;
+}
+/* 第二块样式结束 */
+/* 第三块样式开始 */
+.three>div{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.t-left{
+    position: relative;
+    overflow: hidden;
+}
+.t-left>div{
+    width: 100%;
+    height: 50%;
+}
+.t-right{
+    position: relative;
+    overflow: hidden;
+}
+.hidden{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top: 0;
+    left: 100%;
+    transition: all .5s linear;
+}
+.left-top,.left-bottom{
+    position: relative;
+}
+.t-right:hover .hidden{
+    left: 0;
+}
+.t-left>div:first-child:hover .hidden{
+    left: 0;
+}
+.t-left>div:last-child:hover .hidden{
+    left: 0;
+}
+/* 第三块样式结束 */
+/* 第四块样式开始 */
+.f-left{
+    width: 34%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.f-left:hover .hidden{
+    left: 0;
+}
+.f-right{
+    width: 66%;
+    height: 100%;
+    float: right;
+}
+.f-right>div{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    position: relative;
+}
+.f-right-top:hover .hidden{
+    left: 0;
+}
+.f-right-bottom>div{
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.f-right-bottom>div:first-child:hover .hidden{
+    left: 0;
+}
+.f-right-bottom>div:last-child:hover .hidden{
+    left: 0;
+}
+/* 第四块样式结束 */
+/* 第五块样式开始 */
+/* 第五块样式结束 */
+/* 右侧按钮样式开始 */
+.circle{
+    position: fixed;
+    right: 40px;
+    top: 50%;
+    height: 185px;
+    margin-top: -92.5px;
+}
+.circle>a{
+    display: block;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #fff;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+.active{
+    background-color: #fff;
+}
+/* 右侧按钮样式结束 */
