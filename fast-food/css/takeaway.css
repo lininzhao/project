@@ -1,0 +1,65 @@
+/* 商家主体样式开始 */
+.container{
+    padding: 10px;
+    margin-bottom: 50px;
+}
+.items-top{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    text-align: left;
+    position: relative;
+}
+.items-bottom{
+    width: 100%;
+    height: 30px;
+    background-color: #eee;
+    color: #a6a6a6;
+    line-height: 30px;
+    text-align: left;
+}
+.sj-img{
+    width: 70px;
+    height: 70px;
+    margin: 5px 15px 5px 5px;
+}
+.sj-message>h4{
+    height: 30px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.sj-message>h4>a{
+    color: #010000;
+}
+.price{
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+}
+.sj-rank>i{
+    color: red;
+    /* 设置字符之间的距离 */
+    /* 取正值距离变大，负值距离变小 */
+    letter-spacing: -5px;
+    cursor: pointer;
+}
+.sj-rank> .grey{
+    color: #a6a6a6;
+}
+.book{
+    width: 30px;
+    height: 30px;
+    background-color: #017e5c;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+items{
+    margin-bottom: 15px;
+}
+/* 商家主体样式结束 */

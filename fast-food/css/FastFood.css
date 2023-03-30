@@ -1,0 +1,172 @@
+/* 导航样式开始 */
+.nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #017e5c;
+    display: flex;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.city{
+    width: 65px;
+    height: 50px;
+    background-color: #f2bd47;
+}
+.city>span{
+    font-size: 14px;
+}
+.city>a{
+    font-size: 12px;
+    color: white;
+}
+.search{
+    width: 40px;
+    height: 50px;
+}
+.title{
+    height: 50px;
+    /* 子元素分配父元素剩余空间的比例 */
+    flex-grow: 1;
+}
+.title>h2{
+    font-weight: 400;
+    font-size: 18px;
+}
+.search>i{
+    font-size: 20px;
+}
+/* 导航样式结束 */
+/* banner样式开始 */
+.banner{
+    position: relative;
+    margin-top: 50px;
+}
+.img{
+    width: 100%;
+}
+.btn{
+    width: 100%;
+    height: 5%;
+    position: absolute;
+    left: 0;
+    bottom: 5%;
+}
+.btn>ul{
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* 设置子元素水平对齐方式; 在子元素之间平均分配父元素剩余的空间 */
+    justify-content: space-between;
+}
+.btn li{
+    width: 18%;
+    height: 100%;
+    background-color: #017e5c;
+    cursor: pointer;
+}
+.btn .active{
+    background-color: #fff;
+}
+/* banner样式结束 */
+/* 消息样式开始 */
+.message{
+    width: 100%;
+    height: 30px;
+    margin-top: 5px;
+    background-color: #eee;
+    text-align: left;
+    line-height: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #010000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.message>i{
+    font-size: 22px;
+    color: #1d8b6d;
+}
+/* 消息样式结束 */
+
+/* 立即订餐样式开始 */
+.order{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+}
+.order>div{
+    flex-grow: 1;
+}
+.order img{
+    width: 45px;
+    margin: 5px 0 10px;
+}
+.order p{
+    color: #a6a6a6;
+    font-size: 14px;
+}
+.order .order-active{
+    color: #017e5c;
+}
+/* 立即订餐样式结束 */
+/* 商家标题样式开始 */
+.sj-title{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    background-color: #eee;
+    text-align: left;
+    color: #017e5c;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.sj-title>h3{
+    font-weight: 400;
+    font-size: 16px;
+}
+/* 商家标题样式结束 */
+
+/* 页脚样式开始 */
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    display: flex;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.footer>div{
+    flex-grow: 1;
+    padding: 5px 0;
+    line-height: 25px;
+}
+.footer a{
+    color: #a6a6a6;
+}
+.footer p{
+    color: #a6a6a6;
+    font-size: 18px;
+}
+.footer i{
+    font-size: 20px;
+}
+.footer .footer-active{
+    background-color: #017e5c;
+}
+.footer-active>a{
+    color: #fff;
+}
+.footer-active p{
+    color: #fff;
+}
+/* 页脚样式结束 */
