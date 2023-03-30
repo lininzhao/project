@@ -1,0 +1,35 @@
+.logo{
+    width: 18%;
+}
+.search{
+    width: 40%;
+}
+.nav-bar{
+    width: 42%;
+}
+.logo>a{
+    background: url(../images/Brand-M.png) no-repeat  left center;
+    background-size: 85px;
+}
+.nav-btn{
+    display: none;
+}
+/* log in */
+.login{
+    height: 338px;
+    padding-top: 15px;
+}
+.form{
+    width: 43%;
+}
+.micourse-logo{
+    width: 57%;
+}
+/* new course express */
+.new-course{
+    width: 100%;
+}
+/* hot course list */
+.hot-course-box>div{
+    width: 50%;
+}

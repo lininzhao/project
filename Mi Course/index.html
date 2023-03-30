@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Course</title>
+    <link rel="icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/iconfont.css">
+    <link rel="stylesheet" href="./css/miCourse.css">
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width:768px)">
+    <link rel="stylesheet" href="./css/ipad.css" media="screen and (min-width:768px) and (max-width:992px)">
+    <link rel="stylesheet" href="./css/pc.css" media="screen and (min-width:992px)">
+</head>
+<body>
+    <!-- nav-start -->
+    <div class="nav">
+        <div class="wrap">
+            <div class="logo">
+                <a href="#"></a>
+            </div>
+            <div class="search">
+                <form action="">
+                    <input type="text" class="ip" placeholder="Search for More...">
+                    <button type="button" class="iconfont">&#xe64d;</button>
+                </form>
+            </div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="#" class="active">Index</a></li>
+                    <li><a href="#">Course</a></li>
+                    <li><a href="#">Note</a></li>
+                    <li><a href="#">Log In</a></li>
+                </ul>
+            </div>
+            <div class="nav-btn">
+                <i class="iconfont">&#xe66c;</i>
+            </div>
+        </div>
+    </div>
+    <!-- nav-end -->
+    <!-- login-start -->
+    <div class="login">
+        <div class="wrap">
+            <div class="micourse-logo">
+                <img src="./images/MiLogo.png" alt="">
+                <br>
+                <img src="./images/miTitle.png" alt="">
+            </div>
+            <div class="form">
+                <ul>
+                    <li><a href="#" class="active">LOG IN</a></li>
+                    <li><a href="#">REGISTRATION</a></li>
+                </ul>
+                <input type="email" placeholder="Email" class="ip">
+                <input type="password" placeholder="Password" class="ip">
+                <div class="rem">
+                    <input type="checkbox" checked>
+                    <span>Remember me</span>
+                    <a href="#">
+                        <span class="forget">Forget</span>
+                    </a>
+                </div>
+                <button>Log In</button>
+            </div>
+        </div>
+    </div>
+    <!-- longin-end -->
+    <!-- main-body-start -->
+    <div class="content">
+        <div class="wrap">
+            <!-- new course-strat -->
+            <div class="new-course">
+                <div class="container">
+                    <h3 class="title">New Course Express</h3>
+                    <div class="new-course-box">
+                        <div>
+                            <a href="#">
+                                <img src="./images/biology.jpg" alt="">
+                                <p>Junior Biology Book</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="./images/uncertainty.jpg" alt="">
+                                <p>High School Social</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="new-course-box" style="display: none;">
+                        <div>
+                            <a href="#">
+                                <img src="./images/mineral.jpg" alt="">
+                                <p>Junior Geography Book</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="./images/film.jpg" alt="">
+                                <p>High School Film-Making Book</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="new-course-box" style="display: none;">
+                        <div>
+                            <a href="#">
+                                <img src="./images/pollution.jpg" alt="">
+                                <p>Junior Environment Book</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <img src="./images/usa.jpg" alt="">
+                                <p>American History</p>
+                            </a>
+                        </div>
+                    </div>
+                    <ul class="btn">
+                        <li onclick="f(0)" class="btn-active"><a href="#"></a></li>
+                        <li onclick="f(1)"><a href="#"></a></li>
+                        <li onclick="f(2)"><a href="#"></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- new course-end -->
+            <!-- hot list start -->
+            <div class="hot-course">
+                <div class="container">
+                    <h3 class="title">
+                        List of most popular courses
+                        <a href="#" class="more">more...</a>
+                    </h3>
+                    <div class="hot-course-box">
+                        <div>
+                            <div>
+                                <img src="./images/art.png" alt="" class="img">
+                                <a href="#" class="name">The Contemporary Significance of Russian Literature</a>
+                                <div class="faculty">
+                                    <a href="#" class="a">Faculty of Arts</a>
+                                    <a href="#" class="a">Dongxiao</a>
+                                </div>
+                                <div class="score">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <span>4.8 Marks</span>
+                                </div>
+                                <div class="comment">
+                                    <span>3 Credits</span>
+                                    <a href="#">68 comments</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="./images/film.png" alt="" class="img">
+                                <a href="#" class="name">The Rise of Hollywood Cinema</a>
+                                <div class="faculty">
+                                    <a href="#" class="a">Faculty of Arts</a>
+                                    <a href="#" class="a">Fangxin</a>
+                                </div>
+                                <div class="score">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <span>4.8 Marks</span>
+                                </div>
+                                <div class="comment">
+                                    <span>3.5 Credits</span>
+                                    <a href="#">101 comments</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="./images/history.png" alt="" class="img">
+                                <a href="#" class="name">Modern Chinese History</a>
+                                <div class="faculty">
+                                    <a href="#" class="a">Faculty of History</a>
+                                    <a href="#" class="a">XiaoHui</a>
+                                </div>
+                                <div class="score">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <span>4.0 Marks</span>
+                                </div>
+                                <div class="comment">
+                                    <span>3 Credits</span>
+                                    <a href="#">90 comments</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="./images/biology.png" alt="" class="img">
+                                <a href="#" class="name">Essential Biological Knowledge</a>
+                                <div class="faculty">
+                                    <a href="#" class="a">Faculty of Bioscience</a>
+                                    <a href="#" class="a">Duanyue</a>
+                                </div>
+                                <div class="score">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <span>2.5 Marks</span>
+                                </div>
+                                <div class="comment"> 
+                                    <span>3 Credits</span>
+                                    <a href="#">27 comments</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="./images/geography.png" alt="" class="img">
+                                <a href="#" class="name">National Geographic</a>
+                                <div class="faculty">
+                                    <a href="#" class="a">Faculty of Geographic</a>
+                                    <a href="#" class="a">Ximing</a>
+                                </div>
+                                <div class="score">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <span>5.0 Marks</span>
+                                </div>
+                                <div class="comment">
+                                    <span>2.5 Credits</span>
+                                    <a href="#">50 comments</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <img src="./images/music.png " alt="" class="img">
+                                <a href="#" class="name">History of classical music</a>
+                                <div class="faculty">
+                                    <a href="#" class="a">Faculty of Music</a>
+                                    <a href="#" class="a">LiBai</a>
+                                </div>
+                                <div class="score">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <img src="./images/star.png" alt="">
+                                    <span>3.8 Marks</span>
+                                </div>
+                                <div class="comment">
+                                    <span>2 Credits</span>
+                                    <a href="#">80 comments</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- hot list end -->
+            <!-- hot tag start -->
+            <div class="hot-tag">
+                <div class="container">
+                    <h3 class="title">Hot Tags</h3>
+                    <div class="hot-tag-box">
+                        <h5>Credits</h5>
+                        <a href="#" class="a">3 Credits</a>
+                        <a href="#" class="a">2 Credits</a>
+                        <a href="#" class="a">4 Credits</a>
+                    </div>
+                    <div class="hot-tag-box">
+                        <h5>Grade</h5>
+                        <a href="#" class="a">3 Grade</a>
+                        <a href="#" class="a">2 Grade</a>
+                        <a href="#" class="a">4 Grade</a>
+                        <a href="#" class="a">1 Grade</a>
+                        <a href="#" class="a">5 Grade</a>
+                        
+                    </div>
+                    <div class="hot-tag-box">
+                        <h5>Professors</h5>
+                        <a href="#" class="a">Li Ming</a>
+                        <a href="#" class="a">Zhang Tian</a>
+                        <a href="#" class="a">Li Bai</a>
+                        <a href="#" class="a">Wang Er</a>
+                        <a href="#" class="a">Herry Liu</a>
+                        <a href="#" class="a">Xian Hua Liu</a>
+
+                    </div>
+                    <div class="hot-tag-box">
+                        <h5>Types</h5>
+                        <a href="#" class="a">Seminars</a>
+                        <a href="#" class="a">Public Lectures</a>
+                        <a href="#" class="a">General Studies</a>
+                        <a href="#" class="a">Reading Program</a>
+                        <a href="#" class="a">Literary Literacy</a>
+                        <a href="#" class="a">General Sports Literacy</a>
+                    </div>
+                </div>
+            </div>
+            <!-- hot tag end -->
+        </div>
+    </div>
+    <!-- main-body-end -->
+    <script src="./js/micourse.js"></script>
+</body>
+</html>

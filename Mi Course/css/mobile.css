@@ -1,0 +1,47 @@
+.logo{
+    width: 16%;
+}
+.search{
+    width: 68%;
+}
+.nav-bar{
+    display: none;
+}
+.logo>a{
+    background: url(../images/Brand-S.png) no-repeat  left center;
+    background-size: 35px;
+}
+.nav-btn{
+    width: 36px;
+    height: 36px;
+    border: 1px solid white;
+    float: right;
+    margin-top: 14px;
+    color: white;
+    line-height: 36px;
+}
+.nav-btn>i{
+    font-size: 20px;
+}
+/* log in */
+.login{
+    height: 365px;
+    padding-top: 85px;
+}
+.form{
+    width: 100%;
+}
+.micourse-logo{
+  display: none;
+}
+/* new course express */
+.new-course-box>div{
+    width: 100%;
+}
+.new-course{
+    width: 100%;
+}
+/* hot course list */
+.hot-course-box>div{
+    width: 100%;
+}
