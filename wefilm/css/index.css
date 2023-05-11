@@ -1,0 +1,10 @@
+.nav-item .label{
+    display: inline-block;
+    width: 33px;
+    height: 25px;
+    background-color: indianred;
+    border-radius: 20%;
+}
+.login{
+    float: right;
+}
